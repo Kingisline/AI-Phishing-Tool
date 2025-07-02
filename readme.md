@@ -1,4 +1,4 @@
-## This is tool used to identify the Phishing in Gmail
+## This is tool used to identify the Phishing Activity in Gmail
 
 ## How to use?
 ---
@@ -18,13 +18,13 @@
 
 ```bash
 # Step 1: Clone or extract project
-cd phishing-detector-desktop
+cd AI-Phishing-Tool
 
 # Step 2: Install dependencies
 pip install -r requirements.txt
 
 # Step 3: Run the app (admin rights required)
-python gmail_gui_app.py
+python app.py
 ```
 ### 3. Build .EXE (Windows Desktop App)
 ```
@@ -33,7 +33,7 @@ pip install pyinstaller
 
 ## Build executable
 ```
-pyinstaller --onefile --windowed gmail_gui_app.py
+pyinstaller --onefile --windowed app.py
 ```
 
 ## 🔐 Security & Privacy
